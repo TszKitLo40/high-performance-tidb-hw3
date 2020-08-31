@@ -14,7 +14,7 @@ The experiment is conducted with Tencent cloud cvm, the deployment is listed in 
 ## Tikv flame graph
 ![flame](https://github.com/TszKitLo40/high-performance-tidb-hw3/blob/master/flame.png)
 
-The cpu usage of _sendmsg is high. Maybe something can be done on it.
+The io block of _sendmsg is high. Maybe something can be done on it.
 
 Issue link
 [https://github.com/tikv/tikv/issues/8547](https://github.com/tikv/tikv/issues/8547)
